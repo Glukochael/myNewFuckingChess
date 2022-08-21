@@ -1,0 +1,19 @@
+{
+    "name": "danilo/my-new-fucking-chess",
+    "autoload": {
+        "psr-4": {
+            "Chess\\": "src\\Chess",
+            "AsciiRender\\": "src\\AsciiRender"
+        }
+    },
+    "authors": [
+        {
+            "name": "Glukochael",
+            "email": "danyamanson12@gmail.com"
+        }
+    ],
+    "require": {
+      "php-school/terminal": "^0.2.1",
+      "ext-readline": "*"
+    }
+}
